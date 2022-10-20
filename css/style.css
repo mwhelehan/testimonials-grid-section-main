@@ -1,0 +1,88 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/* ###  colors */
+
+:root{
+
+     --Moderate_violet: hsl(263, 55%, 52%);
+     --Very_dark_grayish_blue: hsl(217, 19%, 35%);
+     --Very_dark_blackish_blue: hsl(219, 29%, 14%);
+     --White: hsl(0, 0%, 100%);
+     --Light_gray: hsl(0, 0%, 81%);
+     --Light-grayish-blue: hsl(210, 46%, 95%);
+
+     
+
+}
+
+html{
+     
+     @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+     font-size: 62.5%;
+     --ff-primary: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+body{
+     min-height: 100vh;
+  text-rendering: optimizeSpeed;
+     font-size: 1.3rem;
+     line-height: 1.5;
+
+}
+
+.bg-primary-400 {
+     background: hsl(var(--Moderate_violet));
+   }
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+     display:grid;
+     place-content: center;
+}
+
+
+
+/* *components* */
+
+.testimonial{
+     font-size: ;
+}
+
+footer .attribution{
+      font-size: 1.1rem; 
+      text-align: center; 
+     }
+
+footer .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+ }
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
